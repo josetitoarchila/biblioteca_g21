@@ -10,18 +10,48 @@
     
     
     <!--header-->
-    <header style="background-color:antiquewhite; width: 100%;">
-        <h1>pruebassss</h1>
-        <div style="background-color:coral; width: 20%; height: 60px; float:left">
-            <h3>titulo caja anaranjada</h3>
-            <p>caja1</p>
-
+    <div style="background-color:antiquewhite; width: 100%;">
+        <!--caja con logo-->
+        <div style="background-color:white; width: 50%; height: 150px; float:left; text-align: center;">
+            <a href="https://www.eltiempo.com/" target="_blank">
+                <img src="/img/logo1.png" />
+            </a>
         </div>
-        <div  style="background-color:blue; width: 50%; height: 60px; float:left">
-            <p>caja2</p>
+        <!--caja con titulo-->
+        <!--CSS-->
+        <div  style="background-color:white; width: 50%; height: 150px; float:left; text-align: left;">
+           <h1>Libreria G21</h1>
         </div>
+        <nav style="text-align: center;">
+            <ul>
+                <li style="display:inline-block">
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li style="display:inline-block">
+                    <a href="nosotros.html">Sobre nosotros</a>
+                </li>
+                <li style="display:inline-block">
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!--caja con un formulario-->
+    <main style="text-align: center;">
+        <h1>INGRESAR LIBROS</h1>
+        
+        <form>
+            <label >Nombre</label>
+            <input type="text" id="nombre" name="nombre" size=50 />
+            <br /><br />
 
-    </header>
+            <input type="submit" value="Guardar Libro" />
+            <button>Actualizar libro</button>
+        </form>
+    </main>
+
+
+
     <!--main-->
     <!--<main  style="background-color:aquamarine">
         <h3>pruebassss</h3>
