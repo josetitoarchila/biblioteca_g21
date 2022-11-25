@@ -5,42 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/estilos/index.css">
 </head>
 <body>
     
     
     <!--header-->
-    <div style="background-color:antiquewhite; width: 100%;">
+    <header>
         <!--caja con logo-->
-        <div style="background-color:white; width: 50%; height: 150px; float:left; text-align: center;">
+        <div class="estilo_caja_logo">
             <a href="https://www.eltiempo.com/" target="_blank">
-                <img src="/img/logo1.png" />
+                <img src="/img/imagen.jpg" />
             </a>
         </div>
         <!--caja con titulo-->
         <!--CSS-->
-        <div  style="background-color:white; width: 50%; height: 150px; float:left; text-align: left;">
-           <h1>Libreria G21</h1>
+        <div class="estilo_caja_titulo">
+           <h1 class="estilo_h1">Libreria G21</h1>
         </div>
-        <nav style="text-align: center;">
+        <nav>
             <ul>
-                <li style="display:inline-block">
+                <li>
                     <a href="index.html">Inicio</a>
                 </li>
-                <li style="display:inline-block">
+                <li>
                     <a href="nosotros.html">Sobre nosotros</a>
                 </li>
-                <li style="display:inline-block">
+                <li>
                     <a href="contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
-    </div>
+    </header>
     <!--caja con un formulario-->
     <main style="text-align: center;">
         <h1>INGRESAR LIBROS</h1>
         
-        <form>
+        <form id="formulario_libros">
             <label >Nombre</label>
             <input type="text" id="nombre" name="nombre" size=50 />
             <br /><br />
