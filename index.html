@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/estilos/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Dosis:wght@300&family=Lora:wght@400;500&family=Montserrat+Alternates:wght@300&family=Mulish:wght@300&family=Varela+Round&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
 </head>
 <body>
     
@@ -37,19 +43,89 @@
             </ul>
         </nav>
     </header>
+    <br /><br />
     <!--caja con un formulario-->
-    <main style="text-align: center;">
+    <main >
         <h1>INGRESAR LIBROS</h1>
         
         <form id="formulario_libros">
-            <label >Nombre</label>
+            <label>Nombre Libro</label>
             <input type="text" id="nombre" name="nombre" size=50 />
             <br /><br />
+            <label>Editorial</label>
+            <input type="text" id="editorial" name="editorial" size=50 />
+            <br /><br />
+            <label>Autor</label>
+            <select name="autor">
+                <option value="1">Gabriel Garcia Marques</option>
+                <option value="2">Mario Benedetti</option>
+                <option value="3">Pablo Neruda</option>
 
-            <input type="submit" value="Guardar Libro" />
-            <button>Actualizar libro</button>
+            </select>
+            <br /><br />
+            <input class="boton_formulario" type="submit" value="Cancelar" />
+            <input class="boton_formulario" type="submit" value="Guardar" />
         </form>
     </main>
+    <br /><br /><br />
+    <center></center>
+    <table>
+        <colgroup span="4" class="columns"></colgroup>
+        <tr>
+            <th>Countries</th>
+            <th>Capitals</th>
+            <th>Population</th>
+            <th>Language</th>
+        </tr>
+        <tr>
+            <td>USA</td>    
+            <td>Washington D.C.</td>
+            <td>309 million</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td>Sweden</td>
+            <td>Stockholm</td>
+            <td>9 million</td>
+            <td>Swedish</td>
+        </tr>
+      </table>
+      <br /><br /><br />
+      <footer>
+            <div class="caja1">
+                <div class="caja_superior">
+                    <div class="caja_superior1">
+                        <h3>Attractions</h3>
+                    </div>
+                    <div class="caja_superior2">
+                        <span class="material-symbols-outlined">
+                            keyboard_command_key
+                        </span>
+                    </div>
+                </div>
+                <div class="caja_media">
+                    <div class="caja_media1">
+                        <p>texto1</p>
+                        <p>texto2</p>
+                        <p>texto3</p>
+
+                    </div>
+                    <div class="caja_media2">
+                        <p>texto4</p>
+                        <p>texto5</p>
+                        <p>texto6</p>
+
+
+                    </div>
+                </div>
+                <div class="caja_inferior">
+                    <input class="boton_caja" type="submit" value="guardar">
+                </div>
+            </div>
+            <div class="caja2"></div>
+            <div class="caja3"></div>
+      </footer>
+      <br /><br /><br />
 
 
 
