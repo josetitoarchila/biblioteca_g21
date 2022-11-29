@@ -102,26 +102,27 @@ tr, th, td{
 footer{
     width: 100%;
     height: 220px;
-    background-color: #1F618D;
+  /*  background-color: #1F618D;*/
 }
 
 .caja1{
     width: 33%;
     height: 220px;
-    background-color: aqua;
+   /* background-color: aqua;*/
     float: left;
+    border: 1px solid #000;
 }
 
 .caja_superior{
     width: 100%;
     height: 60px;
-    background-color: dodgerblue;
+  /*  background-color: dodgerblue;*/
 }
 
 .caja_superior1{
     width: 70%;
     height: 60px;
-    background-color: lightblue;
+   /* background-color: lightblue;*/
     float:left;
     position: relative;
 }
@@ -137,7 +138,7 @@ div h3{
 .caja_superior2{
     width: 30%;
     height: 60px;
-    background-color:dodgerblue;
+    /*background-color:dodgerblue;*/
     float:left;
     position: relative;
 }
@@ -153,28 +154,38 @@ div span{
 .caja_media{
     width: 100%;
     height: 120px;
-    background-color: darkturquoise;
+    /*background-color: darkturquoise;*/
 
 }
 .caja_media1{
-    width: 50%;
+    width: 45%;
     height: 120px;
-    background-color: crimson;
+    /*background-color: crimson;*/
     float: left;
+    margin-left: 5%;
 
 }
 
 .caja_media2{
-    width: 50%;
+    width: 45%;
     height: 120px;
-    background-color:orange;
+    /*background-color:orange;*/
     float:left;
 }
 
 .caja_inferior{
     width: 100%;
     height: 40px;
-    background-color: darkturquoise;
+ /*   background-color: darkturquoise;*/
+    position: relative;
+}
+
+.caja_inferior input{
+    position: absolute;
+    left: 85%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 div h3{
@@ -198,13 +209,137 @@ div h3{
 .caja2{
     width: 33%;
     height: 220px;
-    background-color:aquamarine;
+    /*background-color:aquamarine;*/
     float: left;
+    border: 1px solid #000;
 }
 
 .caja3{
     width: 33%;
     height: 220px;
-    background-color:cadetblue;
+   /* background-color:cadetblue;*/
     float: left;
+    border: 1px solid #000;
 }
+span{
+    color: #1F618D;
+}
+
+/* cear estilos para movil*/
+@media screen and (max-width: 640px)
+{
+    .estilo_caja_logo {
+        background-color:white; 
+        width: 100%; 
+        height: 100px; 
+        float:none; 
+    }
+    div img{
+        left: 50%;
+    }
+    
+    .estilo_caja_titulo{
+        width: 100%; 
+        height: 80px; 
+        float:none; 
+        text-align: center;
+    }
+    div h1{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+    }
+    .estilo_h1{
+        font-size: 25px;
+    }
+    /*ajustar menu*/
+    li{
+        display:inline-block;
+        width: 100%;
+        background-color: #1F618D;
+        height: 30px;
+        padding-top: 0px;
+        padding-right: 20px;
+        margin-bottom: 10px;
+    
+    }
+    nav{
+        margin-left: -15%;
+    }
+    
+    /*formulario*/
+    main h1{
+        font-size: 25px;    
+    }
+
+    #formulario_libros{
+        width: 100%;
+        background-color: white;
+        margin-left: 5%;
+        margin-right: 10%;
+    
+    }
+    
+    
+    label{
+        display: inline-block;
+        width: 95%;
+    }
+    input, select{
+        width: 90%;
+    }
+    
+    .boton_formulario{
+        width: 95%;
+        background-color: orangered;
+        color:white;
+        border-color: orangered;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+    
+    table{
+        width: 95%;
+        margin-left:1%;
+        margin-right:1%;
+        border: 1px solid #000;
+    
+    }
+    
+    .caja1, .caja2, .caja3{
+        width: 98%;
+       /* background-color: aqua;*/
+        float: none;
+        margin-bottom: 10px;
+
+    }
+}
+
+@media screen and (min-width: 640px)  and (max-width:1280px){
+    #formulario_libros{
+        width: 100%;
+        background-color: white;
+        margin-left: 5%;
+        margin-right: 10%;
+    
+    }
+    label{
+        display: inline-block;
+        width: 95%;
+    }
+    input, select{
+        width: 90%;
+    }   
+
+    .boton_formulario{
+        width: 45%;
+        background-color: orangered;
+        color:white;
+        border-color: orangered;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+}
+
