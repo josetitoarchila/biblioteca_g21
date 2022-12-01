@@ -44,6 +44,32 @@
     color:white;
 }
 
+
+
+
+/*formulario*/
+.caja1_formulario{
+ /*   background-color: cadetblue;*/
+}
+.caja2_formulario{
+    /*background-color:cornflowerblue;*/
+}
+
+.caja3_formulario{
+    /*background-color:lightblue;*/
+}
+
+.estilo_h2{
+    text-align:center;
+}
+
+.boton-formulario{
+    width: 49%;
+}
+
+
+/*fin formulario*/
+
 @media screen and (max-width: 640px)
 {
     .caja_dos h1{

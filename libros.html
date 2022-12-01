@@ -20,7 +20,7 @@
             <!--logo-->
             <div class="col-12 col-md-6 caja_uno">
                 <a href="https://www.eltiempo.com/" target="_blank">
-                    <img src="/img/imagen.jpg" />
+                    <img class="img-thumbnail" src="/img/imagen.jpg" />
                 </a>
             </div>
             <!--titulo-->
@@ -29,7 +29,7 @@
             </div>
             <div class="col-12 caja_tres">
                 
-                    <nav class="navbar navbar-dark bg-info justify-content-center">
+                    <nav class="navbar navbar-dark bg-primary justify-content-center">
                         <ul class="nav justify-content-center">
                             <li class="nav-item">
                               <a class="nav-link active" aria-current="page" href="#">Active</a>
@@ -45,9 +45,77 @@
                             </li>
                           </ul>
                       </nav>
-                
             </div>
         </div>
     </div>    
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-2 col-xl-3 caja1_formulario">
+            </div>
+            <div class="col-12 col-md-8 col-xl-6 caja2_formulario">
+              <h2 class="estilo_h2">INGRESAR LIBROS</h2>
+        
+              <form id="formulario_libros">
+                  <label class="form-label">Nombre Libro</label>
+                  <input class="form-control" type="text" id="nombre" name="nombre" size=50 />
+                  
+                  <label class="form-label">Editorial</label>
+                  <input class="form-control" type="text" id="editorial" name="editorial" size=50 />
+                  
+                  <label class="form-label">Autor</label>
+                  <select class="form-select" name="autor">
+                      <option value="1">Gabriel Garcia Marques</option>
+                      <option value="2">Mario Benedetti</option>
+                      <option value="3">Pablo Neruda</option>
+      
+                  </select>
+                  <br /><br />
+                  <input class="btn btn-primary boton-formulario" type="submit" value="Cancelar" />
+                  <input class="btn btn-primary boton-formulario" type="submit" value="Guardar" />
+              </form>                
+
+            </div>
+            <div class="col-12 col-md-2 col-xl-3 caja3_formulario">
+            </div>
+
+        </div>
+    </div>
+    <br /><br />
+    <div class="container">
+      <div class="row">
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">First</th>
+              <th scope="col">Last</th>
+              <th scope="col">Handle</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
 </body>
 </html>
