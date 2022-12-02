@@ -1,0 +1,36 @@
+.container{
+    text-align: center;
+    align-items: center;
+}
+
+.caja1{
+    /*background-color: beige;*/
+}
+.caja2{
+/*    background-color: cornflowerblue;*/
+
+}
+.caja3{
+    /*background-color: cadetblue;*/
+}
+
+.btn-primary{
+    margin-top: 15px;
+    width: 100%;
+}
+.caja2{
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+container{
+    position: relative;
+}
+
+container row{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
