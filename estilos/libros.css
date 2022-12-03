@@ -66,6 +66,12 @@
 .boton-formulario{
     width: 49%;
 }
+.texto_h5{
+    text-align:center; 
+    color:orange;
+}
+ 
+
 
 
 /*fin formulario*/
