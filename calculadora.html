@@ -35,7 +35,7 @@
                               <a class="nav-link active" aria-current="page" href="#">Active</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#">Link</a>
+                              <a class="nav-link" href="http://www.elespectador.com">Link</a>
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="#">Link</a>
@@ -56,16 +56,19 @@
             <div class="col-12 col-md-8 col-xl-6 caja2_formulario">
               <h2 class="estilo_h2">CALCULADORA</h2>
         
-              <form id="formulario_libros">
+              <form id="formulario_libros" onsubmit="return false">
                   <label class="form-label">Numero 1</label>
                   <input class="form-control" type="text" id="numero1" name="numero1" size=50 />
-                  
+                  <div id="validar_parrafo1" class="invalid-feedback">
+                  </div>
                   <label class="form-label">Numero 2</label>
                   <input class="form-control" type="text" id="numero2" name="numero2" size=50 />
-                  
+                  <div id="validar_parrafo2" class="invalid-feedback">
+                  </div>
+                
                   <br /><br />
                   <input class="btn btn-primary boton-formulario" type="submit" value="Cancelar" />
-                  <input class="btn btn-primary boton-formulario" type="submit" onclick="calcular()" value="Calcular" />
+                  <input class="btn btn-primary boton-formulario" type="submit" onclick="calcular_suma()" value="Calcular" />
               </form>                
 
             </div>
@@ -74,6 +77,11 @@
 
         </div>
     </div>
+
+    <p>parrafo prueba 1</p>
+    <p>parrafo prueba 2</p>
+    <p id="parrafo3">parrafo prueba 3</p>        
+    <p>parrafo prueba 4</p>
     
     
 </body>
